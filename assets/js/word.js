@@ -42,4 +42,5 @@ function Word(){
     };
 }
 
+//EXPORT WORD OBJ
 module.exports = Word;

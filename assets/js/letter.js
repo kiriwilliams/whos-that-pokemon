@@ -2,6 +2,8 @@
 function Letter(char){
     this.letter = char,
     this.guessed = false,
+    
+    //METHOD to SHOW LETTER
     this.show = function(){
         if(this.guessed){
             //reveal letter
@@ -12,6 +14,7 @@ function Letter(char){
             return "_";
         }
     },
+    //METHOD to CHECL GUESS takes single str character
     this.check = function(guess){
         var guess = guess;
         var correct = false; //assume the guess is incorrect
